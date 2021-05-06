@@ -9,6 +9,7 @@
     margin: 0 auto;
 }
 
+/* inizio nav */
 nav{
     height: 90px;
     display: flex;
@@ -44,3 +45,40 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+/* inizio jumbotron */
+.jumbotron .container{
+    background-color: pink;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* inizio main */
+main .container{
+    background-color: yellow;
+}
+
+main .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.col-2{
+    background-color: chartreuse;
+    height: 800px;
+    width: 500px;
+}
+
+.col-2-2{
+    background-color: violet;
+    height: 800px;
+    width: 500px;
+}
+
+/* inizio footer */
+footer{
+    background-color: teal;
+    height: 150px;
+    margin-top: 50px;
+}
